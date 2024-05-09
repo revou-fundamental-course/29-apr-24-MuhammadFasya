@@ -36,7 +36,3 @@ function showSlide(index) {
 }
 
 setInterval(() => nextSlide(1), 2000);
-
-document
-  .getElementById("home-btn")
-  .addEventListener("click", () => nextSlide(1));

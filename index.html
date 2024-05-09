@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First Website</title>
-    <link rel="stylesheet" href="/css/style.css"
+    <title>Project RevoU</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
@@ -21,35 +21,75 @@
 
     <article class="content-container">
       <header>
-        <h1>Ini Title</h1>
-        <h3>Your Business is our happiness  </h3>
+        <h1>Your Trusted Travel Agent's</h1>
+        <h3>Your Business is our happiness</h3>
       </header>
+      <main>
+        <section class="core-content">
+          <div class="core-item" id="photo-slide">
+            <picture>
+              <div
+                class="banner-item"
+                style="background-image: url(assets/gojo.jpg)"
+              ></div>
+              <div
+                class="banner-item"
+                style="
+                  background-image: url(assets/wallpaperflare.com_wallpaper.jpg);
+                "
+              ></div>
+              <div
+                class="banner-item"
+                style="background-image: url(assets/wallpaperflare.jpg)"
+              ></div>
+              <div style="text-align: center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </picture>
+          </div>
+        </section>
 
-      <section class="core-content">
-        <div class="core-item">
-          <div class="banner-item" style="background-image: url(assets/gojo.jpg);"></div>
-          <div class="banner-item" style="background-image: url(assets/wallpaperflare.com_wallpaper.jpg);"></div>
-          <div class="banner-item" style="background-image: url(assets/wallpaperflare.jpg);"></div>
-        </div>
-        <div class="core-item item-right">
-          <header>
+        <section>
+          <div class="contact-sale">
             <h2>Contact Us</h2>
-              <label style="display: block;">Your Name:</label>
-              <input type="text"/>
-              
-              
-                <label>Username:</label>
-                <input type="text" />
-              
+            <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima</p>
+          </div>
+          <form>
+            <label for="fname">Your Name:</label>
+            <input type="text" id="fname" placeholder="First and Last Name" />
+
+            <label for="fmail">Email Addres:</label>
+            <input type="text" id="fmail" placeholder="example@email.com" />
+
+            <label for="method">Preferred Contact Method:</label>
+            <select id="method" name="method">
+              <option value="">-- Select --</option>
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="message">Message</option>
+            </select>
+
+            <div class="button-submit">
+              <button type="submit" name="submit">Submit</button>
             </div>
-          </header>
-      </section>
-
-      <section class="our-package-content">
-        <h1>Our Package</h1>
-      </section>
+          </form>
+        </section>
+      </main>
+      <blockquote>
+        "Liburan jadi menyenangkan bersama Travel Agentku"
+      </blockquote>
+      <footer class="our-package-content">
+        <h1 title="Our Package">Our Package</h1>
+      </footer>
     </article>
-
-    <script src="js/script.js"></script>
+    <noscript>
+      <p>
+        This page requires JavaScript to be enabled. Please enable JavaScript
+        and reload the page.
+      </p>
+    </noscript>
+    <script src="js/script.js" async defer></script>
   </body>
 </html>
